@@ -2136,6 +2136,46 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.KS_BottomFar_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_BottomFar_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_BottomFar_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_BottomFar_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_BottomNear_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_BottomNear_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_BottomNear_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_BottomNear_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.KS_CabinetEmergency_contact1": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2322,6 +2362,49 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.KS_TopFar_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_TopFar_Contact1",
+            "OPTIONS": {
+                "comment": "kill switch"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_TopFar_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_TopFar_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_TopNear_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_TopNear_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_TopNear_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_TopNear_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.KS_handEmergency1_Contact1": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2367,6 +2450,26 @@
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "MAPPING": "PLC1::Global_Variables::KS_softEmergency2_Contact",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.LS_BottomFar": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::LS_BottomFar",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.LS_BottomNear": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::LS_BottomNear",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
@@ -2455,6 +2558,29 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.LS_TopFar": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::LS_TopFar",
+            "OPTIONS": {
+                "comment": "LimitSwitch"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.LS_TopNear": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::LS_TopNear",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.Plc_EmergencyStop": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2485,6 +2611,19 @@
             "MAPPING": "PLC1::Global_Variables::Pos_LeftTopLin",
             "OPTIONS": {
                 "comment": "ÃŽÂ»Ã–Ãƒ"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.Pos_PhaseShifterLin": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::Pos_PhaseShifterLin",
+            "OPTIONS": {
+                "comment": "axis Position"
             },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/LREAL"
@@ -2590,6 +2729,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.Velo_PhaseShifterLin": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::Velo_PhaseShifterLin",
+            "OPTIONS": {
+                "comment": "axis Velocity"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.Velo_RightBottomLin": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2666,6 +2818,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.DriveDiagMessage_PhaseShifter": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::DriveDiagMessage_PhaseShifter",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/STRING(80)"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.DriveDiagMessage_RightBottom": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2701,6 +2863,16 @@
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "MAPPING": "PLC1::MAIN::DriveDiagNumber_LeftTop",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/UDINT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.DriveDiagNumber_PhaseShifter": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::DriveDiagNumber_PhaseShifter",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/UDINT"
             },
@@ -2866,6 +3038,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.ValueSet_PhaseShifterLin": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::ValueSet_PhaseShifterLin",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.ValueSet_RightBottom": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2883,6 +3065,16 @@
             "MAPPING": "PLC1::MAIN::ValueSet_RightTop",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.bDriveDiagMessageAndNumber": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::bDriveDiagMessageAndNumber",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
             },
             "USEMAPPING": true
         },
@@ -3147,6 +3339,19 @@
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "MAPPING": "PLC1::TaperMode::btn_TaperStop",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.IsSSMotionMode": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::IsSSMotionMode",
+            "OPTIONS": {
+                "comment": "Spectroscopy scanning Mode"
+            },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },

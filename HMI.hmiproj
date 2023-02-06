@@ -125,12 +125,6 @@
       <SubType>Content</SubType>
       <Visible>true</Visible>
     </Content>
-    <Content Include="BCGapMode.view">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="DebugMode.view">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="FavIcon.ico">
       <SubType>Content</SubType>
       <Visible>true</Visible>
@@ -142,9 +136,6 @@
     <Content Include="Fonts\Roboto-Condensed-webfont.woff">
       <SubType>Content</SubType>
       <Visible>true</Visible>
-    </Content>
-    <Content Include="GapMode.view">
-      <SubType>Content</SubType>
     </Content>
     <Content Include="Server\Extensions\ADS\ADS.Config.default.json">
       <SubType>Content</SubType>
@@ -218,12 +209,6 @@
     <Content Include="Server\Extensions\TcHmiUserManagement\TcHmiUserManagement.Storage.json">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="SingleCarrierMode.view">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="TaperMode.view">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Themes\Base\Base.theme">
       <SubType>Content</SubType>
       <Visible>true</Visible>
@@ -277,10 +262,6 @@
       <Visible>true</Visible>
     </Content>
     <Content Include="Images\Manifest\launcher-icon-4x.png">
-      <SubType>Content</SubType>
-      <Visible>true</Visible>
-    </Content>
-    <Content Include="Desktop.view">
       <SubType>Content</SubType>
       <Visible>true</Visible>
     </Content>
