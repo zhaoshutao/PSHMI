@@ -21,7 +21,7 @@
     "tcHmiUseTLS": false,
     "useClientCertificate": false,
     "tcHmiServerUserName": "__SystemAdministrator",
-    "encryptedTcHmiServerPassword": "TkmedH9VEQEJOQPxP9CrMA==",
+    "encryptedTcHmiServerPassword": "ELodW4RNzGw72LnC7UWYHQ==",
     "tcHmiDestinationUrl": "http://127.0.0.1:1010",
     "publishConfiguration": "remote",
     "tcHmiSavePassword": true,
