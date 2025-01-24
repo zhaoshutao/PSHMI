@@ -3367,6 +3367,108 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.UserMode.Global_ChainProtection_EPS_BeamLineReady": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_BeamLineReady",
+            "OPTIONS": {
+                "comment": "Global Chain protection-EPS"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_Done": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_Done",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_In": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_In",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_In1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_In1",
+            "OPTIONS": {
+                "comment": "ÃÃ‚Â½ÂµÃ‘Ã˜Â±Ã­ÃŠÂ¾Â´Â¥Â·Â¢"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_In2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_In2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_ManualOperation": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_ManualOperation",
+            "OPTIONS": {
+                "comment": "Global_ChainProtection_Error: BOOL;\r\nGlobal_ChainProtection_ErrorID: INT;\r\nGlobal_ChainProtection_ErrorDescription: STRING;"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_Out1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_Out1",
+            "OPTIONS": {
+                "comment": "Ã‰ÃÃ‰Ã½Ã‘Ã˜Â±ÃªÃŠÂ¶ÂµÂ½Â´Ã¯Ã—Ã®Â´Ã³Â¼Ã¤ÃÂ¶Â£Â¬ÃÂ¬Ã‹Ã¸Â±Â£Â»Â¤Â³Ã‰Â¹Â¦"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_Out2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_Out2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_Triggered": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_Triggered",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.UserMode.Global_ChainProtection_In1": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3405,6 +3507,108 @@
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "MAPPING": "PLC1::UserMode::Global_ChainProtection_In4",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_Done": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_Done",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_In1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_In1",
+            "OPTIONS": {
+                "comment": "ÃÃ‚Â½ÂµÃ‘Ã˜Â±Ã­ÃŠÂ¾Â´Â¥Â·Â¢"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_In2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_In2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_ManualOperation": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_ManualOperation",
+            "OPTIONS": {
+                "comment": "Global_ChainProtection_Error: BOOL;\r\nGlobal_ChainProtection_ErrorID: INT;\r\nGlobal_ChainProtection_ErrorDescription: STRING;"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_On": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_On",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_Out1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_Out1",
+            "OPTIONS": {
+                "comment": "Ã‰ÃÃ‰Ã½Ã‘Ã˜Â±ÃªÃŠÂ¶ÂµÂ½Â´Ã¯Ã—Ã®Â´Ã³Â¼Ã¤ÃÂ¶Â£Â¬ÃÂ¬Ã‹Ã¸Â±Â£Â»Â¤Â³Ã‰Â¹Â¦"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_Out2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_Out2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_StorageRingReady": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_StorageRingReady",
+            "OPTIONS": {
+                "comment": "Global Chain protection-MPS"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_Triggered": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_Triggered",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },

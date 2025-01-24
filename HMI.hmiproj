@@ -11,7 +11,7 @@
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
     <Name>HMI</Name>
-    <HmiCommunicationRouterPort>10115</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10116</HmiCommunicationRouterPort>
     <HmiFrameworkVersion>Latest</HmiFrameworkVersion>
     <HmiCommunicationServerPort>3001</HmiCommunicationServerPort>
     <HmiInitial>1.10.1342.0</HmiInitial>
