@@ -2123,6 +2123,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.HysteresisError": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::HysteresisError",
+            "OPTIONS": {
+                "comment": "Â»Ã˜Â³ÃŒÂ²Ã®"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.IDControlReady": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2594,6 +2607,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.PosDiff_PhaseShifterLin_actual": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::PosDiff_PhaseShifterLin_actual",
+            "OPTIONS": {
+                "comment": "Lag Distance"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.Pos_LeftBottomLin": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2762,6 +2788,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.btn_Power": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::btn_Power",
+            "OPTIONS": {
+                "comment": "key Command"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.m_restartTC": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2770,6 +2809,39 @@
             "OPTIONS": {
                 "comment": "***"
             },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.max_UserGapPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::max_UserGapPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.min_UserGapPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::min_UserGapPositionNew",
+            "OPTIONS": {
+                "comment": "input protection\r\n"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.moveStatusPhaseShifterLin": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusPhaseShifterLin",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
@@ -3436,6 +3508,26 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.UserMode.Global_ChainProtection_EPS_MaxGapValue": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_MaxGapValue",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_On": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_On",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.UserMode.Global_ChainProtection_EPS_Out1": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3555,6 +3647,16 @@
             },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_MaxGapValue": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_MaxGapValue",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
             },
             "USEMAPPING": true
         },
@@ -4059,6 +4161,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.UserMode.btn_OneKeyToMaxGap": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::btn_OneKeyToMaxGap",
+            "OPTIONS": {
+                "comment": "OneKeyToMaxGap"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.UserMode.btn_Power": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -4109,6 +4224,29 @@
             "MAPPING": "PLC1::UserMode::btn_UserGapStop",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.max_UserGapPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::max_UserGapPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.min_UserGapPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::min_UserGapPositionNew",
+            "OPTIONS": {
+                "comment": "input protection\r\n"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
             },
             "USEMAPPING": true
         },
