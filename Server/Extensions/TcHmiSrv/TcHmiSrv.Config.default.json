@@ -2054,6 +2054,45 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.DeltaPos_PhaseShifter": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::DeltaPos_PhaseShifter",
+            "OPTIONS": {
+                "comment": "axis Position-Delta"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.DeltaTorque_PhaseShifter": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::DeltaTorque_PhaseShifter",
+            "OPTIONS": {
+                "comment": "axis Torque-Delta"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.DeltaVelo_PhaseShifter": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::DeltaVelo_PhaseShifter",
+            "OPTIONS": {
+                "comment": "axis Velocity-Delta"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.Error": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2594,6 +2633,29 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.MaintenanceMode": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::MaintenanceMode",
+            "OPTIONS": {
+                "comment": "Maintenance Mode"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.MaintenanceModeLed": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::MaintenanceModeLed",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.Plc_EmergencyStop": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2837,6 +2899,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.moveStatusGap": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusGap",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.moveStatusPhaseShifterLin": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3000,6 +3072,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.MotorTemperature_PS": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::MotorTemperature_PS",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.SafePLCRunOK": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3155,6 +3237,19 @@
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "MAPPING": "PLC1::MAIN::bReloadDriveDiagMessageAndNumber",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.btn_RestartDriversAll": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::btn_RestartDriversAll",
+            "OPTIONS": {
+                "comment": "RestartDrivers\r\nÃ–Ã˜Ã†Ã´Ã‡Ã½Â¶Â¯Ã†Ã·"
+            },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },

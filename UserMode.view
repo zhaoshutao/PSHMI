@@ -304,7 +304,7 @@
 
 </div>
 
-<div id="TcHmiTextbox_77" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="81" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.UserMode.UserGapVelocityNew%/s%" data-tchmi-top="455" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
+<div id="TcHmiTextbox_77" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="82" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.UserMode.UserGapVelocityNew%/s%" data-tchmi-top="455" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -1931,7 +1931,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.moveStatusPhaseShifterLin%/s%",
+    "event": "%s%PLC1.Global_Variables.moveStatusGap%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1940,7 +1940,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.moveStatusPhaseShifterLin%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.moveStatusGap%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
